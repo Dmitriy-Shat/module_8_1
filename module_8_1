@@ -1,18 +1,17 @@
 def add_everything_up(a, b):
-  try:
-    c = a + b
-  except:
-    if isinstance(a, str):
-      print(f'Сумма равна: {a}'+str(b))
-    #else:
-      #print(f'Сумма равна: {a}'+b)
-    
-  else:
-    print('Сумма равна:', c)
-    
-add_everything_up('привет', 5) 
+    try:
+        c = a + b
+    except:
+        print(f'Сумма равна: {a}' + str(b))
+        #if isinstance(a, str):
+            #print(f'Сумма равна: {a}' + str(b))
+        #else:
+            #print(f'Сумма равна: {a}' + b)
+
+    else:
+        print('Сумма равна:', c)
+
+
+add_everything_up('привет', 5)
 add_everything_up(5, 'пока')
 add_everything_up(5, 5.1)
-    
-      
-  
